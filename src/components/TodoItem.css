@@ -1,0 +1,30 @@
+li {
+	border-bottom: 1px solid #f1f1f1;
+	clear: both;
+	font-size: 20px;
+	margin: 0;
+	padding: 20px;
+	text-decoration-color: #61dafb;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+input[type="checkbox"] {
+	margin-right: 25px;
+}
+
+button {
+	background-color: #f00;
+	border: none;
+	border-radius: 50%;
+	float: right;
+	padding-bottom: 4px;
+	transition: background-color 150ms linear;
+}
+
+button:hover {
+	background-color: #8b0000;
+	cursor: pointer;
+}
